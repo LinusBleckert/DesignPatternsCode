@@ -1,0 +1,22 @@
+Principles:
+	S:
+		Single responsibility principle
+		A class should only have one responsibilty and therefore only one reason to change
+	O:
+		Open/Closed principle
+		A class should be open for extension but closed for modification
+	L:
+		Liskov substition principle
+		Changing a object of a class for a object of its subclass shouldnt change the programs function
+	I:
+		Interface segregation principle
+		Interfaces should be many and simple instead of few and extensive
+	D:
+		Dependency inversion principle
+		Classes shouldnt be dependent on each other but on abstract interface
+
+Patterns:
+	
+	
+Sida:
+	34
