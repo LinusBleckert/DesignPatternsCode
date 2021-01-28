@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Room extends MapSite{
 
-    enum Direction {
+    public enum Direction {
         North,
         South,
         East,

@@ -16,7 +16,20 @@ Principles:
 		Classes shouldnt be dependent on each other but on abstract interface
 
 Patterns:
-	
+
+Creational:
+    Abstract Factory:
+
+
+    Factory Method:
+
+    Builder:
+
+    Prototype:
+
+    Singleton:
+
+
 	
 Sida:
 	34
