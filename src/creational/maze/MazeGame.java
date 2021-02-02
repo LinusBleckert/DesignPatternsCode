@@ -1,9 +1,17 @@
 package creational.maze;
 
+import creational.builder.MazeBuilder;
+
 import static creational.maze.Room.Direction.*;
 
 public class MazeGame {
 
+    public static Maze createMaze(MazeBuilder builder) {
+        builder.buildMaze();
+        return builder.getMaze();
+    }
+
+    /*
     public static Maze createMaze() {
         Maze aMaze = new Maze();
         Room r1 = new Room(1);
@@ -20,11 +28,11 @@ public class MazeGame {
         r2.setSide(South, new Wall());
         r2.setSide(West, theDoor);
         return aMaze;
-    }
+    }*/
 
     public static void main(String[] args) {
-        Maze maze = createMaze();
-        System.out.println(maze.getRoomNr(1));
+        //Maze maze = createMaze();
+        //System.out.println(maze.getRoomNr(1));
 
     }
 }

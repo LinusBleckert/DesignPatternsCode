@@ -1,6 +1,8 @@
 package creational.abstractfactory;
 
 import creational.maze.Door;
+import creational.maze.DoorNeedingSpell;
+import creational.maze.EnchantedRoom;
 import creational.maze.Room;
 
 public class EnchantedMazeFactory extends MazeFactory{
@@ -21,7 +23,7 @@ public class EnchantedMazeFactory extends MazeFactory{
         return new Spell();
     }
 
-    private class Spell{
+    public class Spell{
         public Spell(){
 
         }

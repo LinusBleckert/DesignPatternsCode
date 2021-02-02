@@ -16,7 +16,4 @@ public class Maze{
     public Room getRoomNr(int roomNr){
         return rooms.get(roomNr);
     }
-
-
-
 }
